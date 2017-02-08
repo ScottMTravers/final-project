@@ -1,14 +1,25 @@
+/*==========COLOR PALETTE==========
+#FF9000 - orange
+#000    - black
+#0D1F2D - dark blue
+#546A7B - light blue
+#9EA3B0 - gray
+*/
+
 /*==========UNIVERSALS==========*/
 * {
     margin: 0;
     padding: 0;
-    
 }
 
 body {
     font-family: 'Sahitya', serif;
-    background-color: #546A7B;
+    background: -webkit-linear-gradient(#9EA3B0, #0D1F2D); ;
     color: #fff;
+}
+
+p {
+   padding: 10px 1%; 
 }
 
 a {
@@ -82,12 +93,13 @@ nav > ul > li:first-child {
 
 #hero h1 {
     background-color: rgba(0, 0, 0, .6);
+    font-variant: small-caps;
     color: #fff;
     font-size: 36px;
-    text-align: center;
     position: relative;
     top: 65%;
-    letter-spacing: 4px;
+    text-align: center;
+    letter-spacing: 1px;
 }
 /*==========NEWSLETTER==========*/
 #newsletter {
@@ -129,32 +141,50 @@ nav > ul > li:first-child {
 
 /*==========MAIN==========*/
 main {
-    
+    width: 95%;
+    margin: 10px 2.5%;
+    background-color: #0D1F2D;
+}
+
+main p {
+    text-indent: 5%;
+}
+
+#main-content img {
+    float: left;
+    width: 30%;
+    padding: 1%;
+    border-radius: 5%;
 }
 
 
 /*==========ASIDE==========*/
+aside {
+    clear: both;
+}
+
+#testimonials-header {
+    font-size: 24px;
+}
+
 
 aside .testimonials {
     float: left;
     width: 30%;
 }
 
-#testimonials div {
+.testimonials {
     background-color: #0D1F2D;
-    margin: 1%;
+    margin: 0.5%;
     text-align: center;
-    border-radius: 5% 5% 0 0;
-    border: 4px outset #ff9000;
-    border-bottom: none;
-    padding-bottom: 10px;
+    border-radius: 5%;
+    padding: 10px 1%;
 }
 
 #testimonials div img {
     width: 175px;
     height: 135px;
     border-radius: 5%;
-    /*box-shadow: 5px 5px 5px #ff9000;*/
     margin-bottom: 10px;
 }
 
@@ -162,7 +192,6 @@ aside .testimonials {
     background-color: #0D1F2D;
     box-shadow: 2px 5px 25px #0D1F2D;
     text-align: justify;
-    padding: 2%;
 }
 
 blockquote + h4 {
@@ -173,7 +202,16 @@ blockquote + h4 {
 /*==========FOOTER==========*/
 footer {
     clear: both;
-    height: 100px;
-    background-color: #0D1F2D;
+    height: 70px;
+    background-color: #546A7B;
     border-top: 4px solid #ff9000;
+}
+
+#social-media {
+    text-align: center;
+}
+
+#copywrite {
+    text-align: right;
+    padding-right: 5%;
 }
