@@ -40,11 +40,11 @@ li {
 
 li:hover {
     background-color: #0D1F2D;
-    box-shadow: 0px 5px 20px #000;
+    box-shadow: 0px 5px 5px #000;
 }
 
 button {
-    background-color: #fff;
+    background-color: #FF9000;
     border: none;
     padding: 5px;
     color: #000;
@@ -72,14 +72,8 @@ nav {
 nav > ul > li {
     margin: 0;
     display: inline-block;
-    padding: 13.5px 15px;
-    /*border-left: 3px solid #ff9000;*/
+    padding: 10px 5% 5px;
 }
-
-nav > ul > li:first-child {
-    border-left: none;
-}
-
 
 /*==========HERO==========*/
 #hero {
@@ -146,7 +140,7 @@ main {
     background-color: #0D1F2D;
 }
 
-main h2 {
+#main-content h2 {
     text-align: center;
     font-variant: small-caps;
     text-shadow: 2px 2px 10px #000;
@@ -154,7 +148,7 @@ main h2 {
 
 main h2 span {
     font-size: 0.8em;
-    font-variant: none;
+    font-variant: normal;
     color: #ff9000;
 }
 
@@ -162,41 +156,60 @@ main p {
     text-indent: 5%;
 }
 
-
+main, aside {
+    box-shadow: 5px 5px 20px #000;
+}
 /*==========ASIDE==========*/
 aside {
     clear: both;
+    height: 480px;
     width: 95%;
-    margin: 10px 2.5%;
+    margin: 20px 2.5%;
+    background-color: #0D1F2D;
 }
 
 #testimonials-header {
     font-size: 24px;
+    text-align: center;
+    padding: 10px;
 }
 
 
 aside .testimonials {
     float: left;
-    width: 30%;
+    width: 30.33%;
 }
 
 .testimonials {
     background-color: #0D1F2D;
-    margin: 0.5%;
+    border-left: none;
+    border-collapse: collapse;
     text-align: center;
     padding: 10px 1%;
+    margin: 0.5%;
+    margin-bottom: 20px;
 }
+
+/*#testimonials-wrapper {*/
+/*    height: 408px;*/
+/*    background-color: #546A7B;*/
+/*}*/
 
 #testimonials div img {
     width: 175px;
     height: 135px;
     margin-bottom: 10px;
+    box-shadow: -5px 5px 20px #000;
 }
 
 #testimonials div blockquote {
-    background-color: #0D1F2D;
-    box-shadow: 2px 5px 25px #0D1F2D;
+    /*background-color: #0D1F2D;*/
     text-align: justify;
+}
+
+.testimonials:hover {
+    background-color: #9EA3B0;
+    color: #000;
 }
 
 blockquote + h4 {

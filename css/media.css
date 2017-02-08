@@ -40,6 +40,7 @@
     /*==========ASIDE==========*/
      aside {
         /*clear: both;*/
+        height: 740px;
     }
     
     #testimonials-header {
@@ -60,9 +61,7 @@
         float: left;
         width: 175px;
         height: 135px;
-        padding: 2%;
-        border-radius: 5%;
-        margin: none;
+        margin-right: 2%;
     }
     
     #testimonials div blockquote {
