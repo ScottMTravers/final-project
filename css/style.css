@@ -50,12 +50,6 @@ button {
     color: #000;
 }
 
-#big-wrapper {
-    display: block;
-    position: absolute;
-    top: 49px;
-}
-
 /*==========HEADER==========*/
 header {
     width: 100%;
@@ -176,7 +170,8 @@ main, aside {
 /*==========ASIDE==========*/
 aside {
     clear: both;
-    height: 480px;
+    min-height: 480px;
+    height: auto;
     width: 95%;
     margin: 20px 2.5%;
     background-color: #0D1F2D;

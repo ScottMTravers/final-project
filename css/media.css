@@ -1,4 +1,4 @@
-/*==========MEDIA QUERIES==========*/
+/*==========TABLE MEDIA QUERIES==========*/
 @media only screen and (max-width: 768px) {
     /*==========HERO==========*/
     #hero {
@@ -40,7 +40,7 @@
     /*==========ASIDE==========*/
      aside {
         /*clear: both;*/
-        height: 740px;
+        height: 685px;
     }
     
     #testimonials-header {
@@ -61,6 +61,144 @@
         float: left;
         width: 175px;
         height: 135px;
+        margin-right: 2%;
+    }
+    
+    #testimonials div blockquote {
+        padding-top: 20px;
+    }
+    
+    blockquote + h4 {
+        clear: both;
+        text-align: right;
+        padding-right: 5%;
+    }
+}
+
+/*==========PHONE MEDIA QUERIES==========*/
+@media only screen and (max-width: 600px) {
+    /*==========HEADER==========*/
+    header {
+        width: 100%;
+        display: block;
+        position: relative;
+        border-bottom: 4px solid #ff9000;
+        height: 180px;
+        background-color: #546A7B;
+    }
+    
+    #brand {
+        float: none;
+        display: block;
+        width: 100%;
+    }
+    
+    #brand h2 {
+        font-family: 'Overpass Mono', monospace;
+        text-align: center;
+        padding: 4px;
+    }
+    
+    nav {
+        text-align: center;
+        float: none;
+    }
+    
+    nav > ul > li {
+        margin: 0;
+        display: block;
+        padding: 10px 0;
+    }
+    
+    /*==========HERO==========*/
+    #hero {
+        display: none;
+    }
+    
+    /*==========NEWSLETTER==========*/
+    #newsletter {
+    display: none;
+    height: 50px;
+    background-color: #0D1F2D;
+    }
+    
+    #newsletter h4 {
+        width: 57.5%;
+        font-size: 18px;
+        padding-left: 1%;
+    }
+    
+    #newsletter span {
+        padding-left: 2%;
+        font-size: 12px;
+    }
+    
+    #newsletter form {
+        width: 38.5%;
+        float: right;
+        padding: 10px 0;
+    }
+    
+    #newsletter form input{
+        border: 2px inset #000;
+        width: 60%;
+        line-height: 20px;
+    }
+    
+    #newsletter button {
+        margin-left: 10px;
+    }
+    /*==========MAIN==========*/
+    main {
+        width: 95%;
+        margin: 10px 2.5%;
+        background-color: #0D1F2D;
+    }
+    
+    #main-content h2 {
+        text-align: center;
+        font-variant: small-caps;
+        text-shadow: 2px 2px 10px #000;
+    }
+    
+    main h2 span {
+        font-size: 0.8em;
+        font-variant: normal;
+        color: #ff9000;
+    }
+    
+    main p {
+        text-indent: 5%;
+    }
+    
+    main, aside {
+        box-shadow: 5px 5px 20px #000;
+    }
+    
+    /*==========ASIDE==========*/
+     aside {
+        /*clear: both;*/
+        height: auto;
+    }
+    
+    #testimonials-header {
+        font-size: 24px;
+    }
+    
+    aside .testimonials {
+        float: none;
+        width: 95%;
+        background-color: #0D1F2D;
+        margin: 10px 0.5%;
+        text-align: center;
+        padding: 10px 2%;
+        border-radius: none;
+    }
+    
+    #testimonials div img {
+        float: none;
+        width: 300px;
+        height: 230px;
         margin-right: 2%;
     }
     
