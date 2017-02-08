@@ -50,8 +50,18 @@ button {
     color: #000;
 }
 
+#big-wrapper {
+    display: block;
+    position: absolute;
+    top: 49px;
+}
+
 /*==========HEADER==========*/
 header {
+    width: 100%;
+    display: block;
+    position: fixed;
+    border-bottom: 4px solid #ff9000;
     height: 45px;
     background-color: #546A7B;
 }
@@ -77,8 +87,11 @@ nav > ul > li {
 
 /*==========HERO==========*/
 #hero {
+    position: relative;
+    width: 100%;
+    top: 49px;
     height: 350px;
-    border-top: 4px solid #ff9000;
+    margin-bottom: 49px;
     border-bottom: 4px solid #ff9000;
     background-image: url('../img/trackman_hero.jpg');
     background-position: center;
@@ -98,6 +111,7 @@ nav > ul > li {
 }
 /*==========NEWSLETTER==========*/
 #newsletter {
+    display: block;
     height: 50px;
     background-color: #0D1F2D;
 }
