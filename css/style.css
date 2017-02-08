@@ -92,6 +92,7 @@ nav > ul > li:first-child {
 }
 
 #hero h1 {
+    clear: both;
     background-color: rgba(0, 0, 0, .6);
     font-variant: small-caps;
     color: #fff;
@@ -138,7 +139,6 @@ nav > ul > li:first-child {
     margin-left: 10px;
 }
 
-
 /*==========MAIN==========*/
 main {
     width: 95%;
@@ -162,17 +162,12 @@ main p {
     text-indent: 5%;
 }
 
-#main-content img {
-    float: left;
-    width: 30%;
-    padding: 1%;
-    border-radius: 5%;
-}
-
 
 /*==========ASIDE==========*/
 aside {
     clear: both;
+    width: 95%;
+    margin: 10px 2.5%;
 }
 
 #testimonials-header {
@@ -189,14 +184,12 @@ aside .testimonials {
     background-color: #0D1F2D;
     margin: 0.5%;
     text-align: center;
-    border-radius: 5%;
     padding: 10px 1%;
 }
 
 #testimonials div img {
     width: 175px;
     height: 135px;
-    border-radius: 5%;
     margin-bottom: 10px;
 }
 

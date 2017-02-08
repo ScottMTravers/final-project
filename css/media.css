@@ -1,9 +1,45 @@
 /*==========MEDIA QUERIES==========*/
 @media only screen and (max-width: 768px) {
+    /*==========HERO==========*/
+    #hero {
+        height: 300px;
+    }
+    
+    #hero h1 {
+        font-size: 36px;
+        top: 45%;
+    }
+    /*==========NEWSLETTER==========*/
+    #newsletter h4{
+        width: 57.5%;
+        font-size: 18px;
+        padding-left: 1%;
+    }
+    
+    #newsletter span {
+        padding-left: 2%;
+        font-size: 12px;
+    }
+    
+    #newsletter form {
+        width: 38.5%;
+        float: right;
+        padding: 10px 0;
+    }
+    
+    #newsletter form input{
+        border: 2px inset #000;
+        width: 60%;
+        line-height: 20px;
+    }
+    
+    #newsletter button {
+        margin-left: 10px;
+    }
+    
     /*==========ASIDE==========*/
      aside {
         /*clear: both;*/
-        width: 95%;
     }
     
     #testimonials-header {
@@ -12,7 +48,7 @@
     
     aside .testimonials {
         float: none;
-        width: 100%;
+        width: 95%;
         background-color: #0D1F2D;
         margin: 10px 0.5%;
         text-align: center;
