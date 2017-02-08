@@ -1,0 +1,46 @@
+/*==========UNIVERSALS==========*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+
+}
+
+/*==========HEADER==========*/
+header {
+    height: 100px;
+}
+
+nav {
+    float: right;
+}
+
+nav > ul > li {
+    display: inline-block;
+    padding: 10px 15px;
+    border-left: 2px solid #000;
+}
+
+nav > ul > li:first-child {
+    border-left: none;
+}
+
+
+/*==========HERO==========*/
+#hero {
+    height: 350px;
+    background-image: url('../img/trackman_hero.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+
+/*==========MAIN==========*/
+
+/*==========FOOTER==========*/
