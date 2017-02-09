@@ -1,0 +1,21 @@
+/*==========HERO==========*/
+#hero {
+    background-image: url('../img/trackman_hero3.jpg');
+    background-position: top center;
+    background-size: cover;
+}
+
+#hero h1 {
+    display: none;
+}
+
+#main-content img {
+    float: left;
+    margin: 2%;
+    max-width: 250px;
+    box-shadow: 5px 5px 20px #000;
+}
+
+.professionals {
+    clear: both;
+}

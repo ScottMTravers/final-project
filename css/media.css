@@ -1,5 +1,10 @@
 /*==========TABLE MEDIA QUERIES==========*/
 @media only screen and (max-width: 768px) {
+    /*==========HEADER==========*/
+    nav {
+        width: 50%;
+    }
+    
     /*==========HERO==========*/
     #hero {
         height: 300px;
@@ -77,13 +82,32 @@
 
 /*==========PHONE MEDIA QUERIES==========*/
 @media only screen and (max-width: 600px) {
+    /*==========UNIVERSALS==========*/
+    
+    a:link, a:visited {
+        color: #fff;
+    }
+    
+    .current a{
+        color: #ff9000;
+    }
+    
+    li {
+        list-style-type: none;
+    }
+    
+    li:hover {
+        background-color: #0D1F2D;
+        box-shadow: none;
+    }
+
     /*==========HEADER==========*/
     header {
         width: 100%;
         display: block;
         position: relative;
         border-bottom: 4px solid #ff9000;
-        height: 180px;
+        height: auto;
         background-color: #546A7B;
     }
     
@@ -91,6 +115,7 @@
         float: none;
         display: block;
         width: 100%;
+        border-bottom: 4px solid #ff9000;
     }
     
     #brand h2 {
@@ -102,12 +127,14 @@
     nav {
         text-align: center;
         float: none;
+        width: 100%;
     }
     
     nav > ul > li {
         margin: 0;
         display: block;
         padding: 10px 0;
+        background-color: #0D1F2D;
     }
     
     /*==========HERO==========*/
@@ -167,6 +194,12 @@
         color: #ff9000;
     }
     
+    #main-content img {
+        display: block;
+    float: none;
+    margin: auto;
+    }
+    
     main p {
         text-indent: 5%;
     }
@@ -193,6 +226,11 @@
         text-align: center;
         padding: 10px 2%;
         border-radius: none;
+    }
+    
+    .testimonials:hover {
+    background-color: #0D1F2D;
+    color: #fff;
     }
     
     #testimonials div img {
