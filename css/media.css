@@ -119,6 +119,7 @@
     }
     
     #brand h2 {
+        margin: 0;
         font-family: 'Overpass Mono', monospace;
         text-align: center;
         padding: 4px;
@@ -181,8 +182,9 @@
     }
     /*==========MAIN==========*/
     main {
-        width: 95%;
-        margin: 10px 2.5%;
+        display: block;
+        width: 100%;
+        margin: 10px 0 0 0;
         background-color: #0D1F2D;
     }
     
@@ -220,7 +222,9 @@
     
     /*==========ASIDE==========*/
      aside {
-        /*clear: both;*/
+        display: block;
+        width: 100%;
+        margin: 20px 0 0 0;
         height: auto;
     }
     

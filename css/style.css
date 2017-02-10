@@ -70,6 +70,7 @@ header {
 }
 
 #brand h2 {
+    margin-left: 10px;
     font-family: 'Overpass Mono', monospace;
     padding: 4px;
 }
