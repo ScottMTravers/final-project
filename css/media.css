@@ -124,6 +124,10 @@
         padding: 4px;
     }
     
+    #hamburger {
+        display: inline-block;
+    }
+    
     nav {
         text-align: center;
         float: none;
