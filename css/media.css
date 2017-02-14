@@ -130,6 +130,7 @@
     }
     
     nav {
+        display: none;
         text-align: center;
         float: none;
         width: 100%;
@@ -214,6 +215,7 @@
     
     main p {
         text-indent: 5%;
+        padding: 10px 5%;
     }
     
     main, aside {
