@@ -162,8 +162,8 @@ nav > ul > li {
 
 /*==========MAIN==========*/
 main {
-    width: 95%;
-    margin: 10px 2.5%;
+    width: 85%;
+    margin: 10px auto;
     background-color: #0D1F2D;
 }
 
