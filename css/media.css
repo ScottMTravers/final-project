@@ -127,10 +127,11 @@
     
     #hamburger {
         display: inline-block;
+        box-shadow: none;
     }
     
     nav {
-        display: none;
+        /*display: none;*/
         text-align: center;
         float: none;
         width: 100%;
@@ -210,16 +211,12 @@
     #main-content img {
     display: block;
     float: none;
-    margin: auto;
+    margin: 10px auto;
     }
     
     main p {
         text-indent: 5%;
         padding: 10px 5%;
-    }
-    
-    main, aside {
-        box-shadow: 5px 5px 20px #000;
     }
     
     /*==========ASIDE==========*/

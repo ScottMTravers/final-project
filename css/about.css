@@ -9,13 +9,22 @@
     display: none;
 }
 
+#main-content {
+    padding: 2%;
+}
+
 #main-content img {
-    float: left;
-    margin: 2%;
+    display: block;
+    margin: 10px auto;
     max-width: 250px;
-    box-shadow: 5px 5px 20px #000;
+    transition: 0.5s;
 }
 
 .professionals {
     clear: both;
+}
+
+img:hover {
+    box-shadow: 5px 5px 20px #000;
+    transform: scale(1.1);
 }
