@@ -18,10 +18,18 @@ header {
     text-align: center;
 }
 
+#map h2 {
+    margin-left: 5%;
+}
+
 #map iframe {
     margin: 0 2%;
     height: 300px;
     width: 100%;
+}
+
+#map h4, #map address {
+    margin-left: 5%;
 }
 
 #map h4 span a {
@@ -50,7 +58,7 @@ header {
 }
 
 /*==========MEDIA QUERIES===========*/
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
     .container {
         height: 1105px;
     }
@@ -61,5 +69,10 @@ header {
     
     #form {
         width: 96%;
+    }
+    
+    #form h2 {
+        padding-top: 10px;
+        border-top: 2px solid rgba(255, 255, 255, 0.5);
     }
 }
